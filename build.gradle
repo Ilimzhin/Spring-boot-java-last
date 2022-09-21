@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.7.3'
+    //для работы с файлом html с помощью тимлиф
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.7.3'
+    implementation 'org.springframework.boot:spring-boot-devtools:2.7.3'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.3'
+
+    implementation 'org.springframework.boot:spring-boot-starter-mustache:2.7.3'
+    // для работы в html файла с помощью мусташ
+
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
