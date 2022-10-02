@@ -1,6 +1,6 @@
-package com.example.repos;
+package com.example.otherapp.repos;
 
-import com.example.domain.Message;
+import com.example.otherapp.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

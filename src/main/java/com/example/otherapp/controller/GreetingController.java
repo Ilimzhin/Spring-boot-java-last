@@ -1,7 +1,7 @@
-package com.example.controller;
+package com.example.otherapp.controller;
 
-import com.example.domain.Message;
-import com.example.repos.MessageRepo;
+import com.example.otherapp.domain.Message;
+import com.example.otherapp.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
